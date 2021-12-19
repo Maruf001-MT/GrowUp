@@ -3253,6 +3253,7 @@ input::-moz-focus-inner {
 }
 .header-logo img{
     transform: scale(2);
+    margin-left: 15px;
 }
 /* ------------------------------------------------------------------- 
  * ## main navigation 
