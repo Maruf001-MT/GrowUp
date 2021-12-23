@@ -44,7 +44,16 @@
         Message: message.value
       })
       .then(()=>{
-          alert("Submitted Success");
+          var okBtn = document.querySelector(".okBtn");
+          var alertSec = document.querySelector(".customAlert");
+          var altDiv = document.querySelector(".altDiv");
+  
+          insertBtn.onclick = function() {
+              alertSec.style.visibility = 'visible';
+          }
+          okBtn.onclick = function() {
+              alertSec.style.visibility = 'hidden';
+          };
       })
       .catch((error)=>{
           alert("Error"+error);
