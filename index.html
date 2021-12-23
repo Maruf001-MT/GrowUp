@@ -318,16 +318,7 @@
                         <div class="form-field"> <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required aria-required="true" class="full-width"></div>
                         <div class="form-field"> <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width"></div>
                         <div class="form-field"><textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required aria-required="true" class="full-width"></textarea></div>
-                        <div class="form-field"> <button class="full-width btn--primary">Submit</button>
-                            <div class="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="form-field"> <button class="full-width btn--primary" id="submitBtn">Submit</button></div>
                     </fieldset>
                 </form>
                 <div class="message-warning"> Something went wrong. Please try again.</div>
@@ -424,6 +415,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script type="module" src="js/contactForm.js"></script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597" integrity="sha512-gV/bogrUTVP2N3IzTDKzgP0Js1gg4fbwtYB6ftgLbKQu/V8yH2+lrKCfKHelh4SO3DPzKj4/glTO+tNJGDnb0A==" data-cf-beacon='{"rayId":"6bcda83bfce44bec","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.11.0","si":100}'
         crossorigin="anonymous"></script>
 </body>
