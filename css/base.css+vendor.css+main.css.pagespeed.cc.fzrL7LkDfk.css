@@ -85,6 +85,8 @@ html {
 .okBtn{
     position: absolute;
     margin-top: 120px;
+    color: white;
+    background-color: var(--primary);
 }
 :root{
     --primary:#11ca83;
